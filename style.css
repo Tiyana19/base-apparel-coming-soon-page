@@ -118,7 +118,11 @@ form {
 .btn:hover {
   transform: scale(1.2, 1.1);
   box-shadow: rgba(238, 140, 140, 1) 0px 35px 30px -15px;
-  opacity: 0.6;
+  background: linear-gradient(
+    135deg,
+    rgb(249, 223, 223) 0%,
+    rgb(252, 202, 202) 100%
+  );
   border: 0;
   outline: none;
 }
